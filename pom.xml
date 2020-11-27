@@ -115,12 +115,12 @@
          
     <distributionManagement>
          <snapshotRepository>
-             <id>nexusdeplymentrepo</id>
-             <url>http://localhost:8081/repository/maven-snapshots/</url>
+             <id>nexusdeploymentrepo</id>
+             <url>http://localhost:8081/repository/Despliegue/</url>
          </snapshotRepository>
          <repository>
-              <id>nexusdeplymentrepo</id>
-             <url>http://localhost:8081/repository/maven-releases/</url>   
+              <id>nexusdeploymentrepo</id>
+             <url>http://localhost:8081/repository/Despliegue/</url>   
          </repository>
     </distributionManagement>
 </project>
