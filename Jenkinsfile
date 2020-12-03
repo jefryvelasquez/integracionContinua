@@ -19,6 +19,7 @@ pipeline {
                 }
             }
         }
+        
 
         stage ('Testing Stage') {
 
@@ -36,6 +37,7 @@ pipeline {
                 }
             }
         }
+        
 
 
         stage ('Deployment Stage') {
